@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Эксклюзивная и нестандартная мебель для дома</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header container">
+  <a class="logo" href="#" aria-label="На главную">A</a>
+  <nav class="nav" aria-label="Основное меню">
+    <a href="#about">О нас</a>
+    <a href="#steps">Как мы работаем</a>
+    <a href="#projects">Проекты</a>
+    <a href="#reviews">Отзывы</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Главный экран. Вместо .ph вставьте <img src="..." alt="..."> -->
+  <section class="hero container">
+    <h1>Эксклюзивная и нестандартная мебель для дома</h1>
+    <p class="hero__lead">Мы создаём мебель, которая подходит именно вашему интерьеру: от идеи до установки.</p>
+    <div class="hero__images">
+      <div class="ph ph--small" role="img" aria-label="Интерьер с диваном"></div>
+      <div class="ph ph--large" role="img" aria-label="Гостиная с оранжевым креслом"></div>
+    </div>
+  </section>
+
+  <section class="about container" id="about">
+    <h2 class="about__title">Более 5 лет создаем мебель для вашего комфорта.</h2>
+    <div class="about__text">
+      <p>Мы работаем с дизайнерами и частными заказчиками. Каждый проект учитывает размеры помещения, ваши привычки и бюджет.</p>
+      <p>Подбираем материалы, согласуем чертежи и сами устанавливаем готовую мебель.</p>
+      <dl class="stats">
+        <div><dt>1 год</dt><dd>гарантии на всю мебель</dd></div>
+        <div><dt>380+</dt><dd>реализованных проектов</dd></div>
+        <div><dt>15 дней</dt><dd>на подготовку чертежей</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="steps container" id="steps">
+    <h2>Как мы работаем</h2>
+    <p class="steps__note">Пять шагов от первой встречи до готовой мебели в вашем доме.</p>
+    <ol class="steps__list">
+      <li><h3>Идея</h3><p>Обсуждаем задачу, стиль и пожелания, изучаем помещение.</p></li>
+      <li><h3>Техническое задание</h3><p>Фиксируем размеры, материалы, фурнитуру и сроки.</p></li>
+      <li><h3>Коммерческое предложение</h3><p>Готовим визуализацию и считаем точную стоимость.</p></li>
+      <li><h3>Подготовка рабочего чертежа</h3><p>Составляем чертежи для производства и согласуем их с вами.</p></li>
+      <li><h3>Производство и монтаж</h3><p>Изготавливаем мебель, привозим и устанавливаем её.</p></li>
+    </ol>
+  </section>
+
+  <section class="projects container" id="projects">
+    <h2>Проекты</h2>
+    <div class="projects__grid">
+      <div class="ph ph--project" role="img" aria-label="Проект 1"></div>
+      <div class="ph ph--project" role="img" aria-label="Проект 2"></div>
+      <div class="ph ph--project" role="img" aria-label="Проект 3"></div>
+      <div class="ph ph--project" role="img" aria-label="Проект 4"></div>
+      <div class="ph ph--project" role="img" aria-label="Проект 5"></div>
+      <div class="ph ph--project" role="img" aria-label="Проект 6"></div>
+    </div>
+  </section>
+
+  <section class="reviews container" id="reviews">
+    <h2>Отзывы</h2>
+    <div class="reviews__grid">
+      <blockquote class="review">
+        <span class="review__mark" aria-hidden="true">“</span>
+        <footer>Имя Фамилия</footer>
+        <p>Текст отзыва заказчика о сотрудничестве и готовой мебели.</p>
+      </blockquote>
+      <blockquote class="review">
+        <span class="review__mark" aria-hidden="true">“</span>
+        <footer>Имя Фамилия</footer>
+        <p>Текст отзыва заказчика о сотрудничестве и готовой мебели.</p>
+      </blockquote>
+      <blockquote class="review">
+        <span class="review__mark" aria-hidden="true">“</span>
+        <footer>Имя Фамилия</footer>
+        <p>Текст отзыва заказчика о сотрудничестве и готовой мебели.</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="order container" id="order">
+    <div class="ph ph--order" role="img" aria-label="Интерьер"></div>
+    <div class="order__body">
+      <h2>Хотите заказать проект?</h2>
+      <p>Оставьте контакты, и мы свяжемся с вами.</p>
+      <form class="form" action="#" method="post">
+        <label>Имя <input type="text" name="name" required></label>
+        <label>Телефон <input type="tel" name="phone" required></label>
+        <label>Email <input type="email" name="email"></label>
+        <button type="submit">Отправить заявку</button>
+      </form>
+      <div class="stores">
+        <a href="#" class="store">App Store</a>
+        <a href="#" class="store">Google Play</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer container">
+  <span>Адрес, город</span>
+  <span>© Название, 2026</span>
+  <span><a href="#">Политика конфиденциальности</a></span>
+</footer>
+
+</body>
+</html>
